@@ -1,0 +1,25 @@
+ h2{
+  text-align:center; 
+  color: red;
+}
+p{
+  justify-content: center;
+}
+body{
+   background-image: url(download.jpg);
+}
+nav ul{
+   display: flex;
+}
+nav li{
+  list-style: none;
+  margin-right: 20px;
+}
+nav li a{
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+nav li:hover{
+  background-color: lightgray;
+}

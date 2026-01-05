@@ -1,0 +1,31 @@
+body{
+  background-color: bisque;
+   max-width: 1270px;
+   margin: 0 auto;
+}
+.hero-container{
+display: flex;
+ align-items: center;
+background-color: lightgreen;
+ padding: 25px;
+ font-size: 1.5em;
+  /* likha er pic er modde distance er jonnu ay tag use kora erki */
+  gap: 25px; 
+  border-radius: 25px;
+}
+.hero-container img{
+height: 100%;
+width: 400px;
+border-radius: 25px;
+}
+.hero-container button{
+  background-color: rgb(63, 212, 178);
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-size: 1.25em;
+  cursor: pointer;
+}
+.hero-container button:hover{
+  background-color: antiquewhite;
+}
+ 
